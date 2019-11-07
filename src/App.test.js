@@ -7,6 +7,12 @@
   ReactDOM.render(<App />, div);
   ReactDOM.unmountComponentAtNode(div);
 });*/
+
+const { toMatchImageSnapshot } = require('jest-image-snapshot');
+
+expect.extend({ toMatchImageSnapshot });
+
+
 describe('Button', () => {
   it('visually looks correct', async () => {
     // APIs from jest-puppeteer

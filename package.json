@@ -79,7 +79,7 @@
     "babel-loader": "^8.0.6",
     "jest-image-snapshot": "^2.11.0",
     "jest-puppeteer": "^4.3.0",
-    "node-sass": "4.13.0",
+    "node-sass": "7.0.0",
     "puppeteer": "^2.0.0",
     "start-server-and-test": "^1.10.6"
   },
